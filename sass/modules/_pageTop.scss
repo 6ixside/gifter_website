@@ -1,0 +1,196 @@
+.pageTop{
+    background-color: $gifterRed;
+    height: 840px;
+    padding-top: 50px;
+    // display: flex;
+    align-items: center;
+    // justify-content: space-between;
+}
+
+.topIndiv{
+    background-color: $gifterYellow;
+    height: 770px;
+    width: 49%;
+    clip-path: polygon(100% 12%, 95% 50%, 100% 88%, 0 100%, 0 0);
+    float: left;
+    z-index: 2;
+}
+
+.topBlurb{
+    background-color: $gifterRed;
+    height: 300px;
+    width: 28%;
+    margin-left: 36%;
+    z-index: 5;
+    position: relative;
+    border-top-left-radius: 28%;
+    border-bottom-left-radius: 35%;
+    border-top-right-radius: 28%;
+    border-bottom-right-radius: 35%;
+    -webkit-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    top: -515px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blurbTitle{
+    color: $white;
+    font-weight: bold;
+    font-size: 1.6em;
+    width: 88%;
+    margin-left: 6%;
+    margin-top: 45px;
+    line-height: 1.4em;
+}
+
+.blurbText{
+    color: $white;
+    width: 84%;
+    margin-left: 8%;
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-top: 25px;
+}
+
+.topEnterp{
+    background-color: $gifterBlue;
+    height: 770px;
+    width: 49%;
+    clip-path: polygon(0 12%, 100% 0, 100% 100%, 0 88%, 5% 50%);
+    float: right;
+    z-index: 2;
+}
+
+.topBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.indivIcon, .enterpIcon{
+    width: max-content;
+    margin-top: 200px;
+}
+
+.topTitle{
+    font-weight: bold;
+    color: $fontColor;
+    font-size: 2em;
+    margin-top: 25px;
+    opacity: .95;
+}
+
+.learnMore{
+    width: 30%;
+    height: 50px;
+    background-color: $white;
+    border: none;
+    border-radius: 4px;
+    margin-top: 35px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.learnMore h4{
+    float: left;
+    text-align: center;
+    width: 85%;
+    color: $fontColor;
+    font-size: 1em;
+    font-family: alibabaSans, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    // margin-top: 3px;
+}
+
+.learnMore img{
+    float: right;
+    margin-right: 4%;
+}
+
+.topIndiv .topTitle, .topIndiv .learnMore, .indivIcon{
+    margin-right: 80px;
+}
+
+.topEnterp .topTitle, .topEnterp .learnMore, .enterpIcon{
+    margin-left: 80px;
+}
+
+
+
+@include mobile{
+    .pageTop{
+        height: 800px;
+    }
+    
+    .topIndiv{
+        height: 700px;
+        width: 50%;
+        clip-path: none;
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+    }
+    
+    .topEnterp{
+        height: 700px;
+        width: 50%;
+        clip-path: none;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    
+    .topBlurb{
+        height: 260px;
+        width: 76%;
+        margin-left: 12%;
+        top: -650px;
+    }
+    
+    .blurbTitle{
+        font-size: 1.5em;
+        margin-top: 25px;
+    }
+
+    .blurbText{
+        line-height: 1.6em;
+        margin-top: 15px;
+    }
+    
+    .topBox{
+        margin-top: 30px;
+    }
+
+    .indivIcon, .enterpIcon{
+        margin-top: 300px;
+    }
+    
+    .topTitle{
+        font-size: 1.2em;
+        text-align: center; 
+    }
+    
+    .learnMore{
+        width: 65%;
+        text-decoration: none;
+    
+    }
+    
+    .learnMore h4{
+        text-align: center;
+        font-size: .9em;
+    }
+    
+    .topIndiv .topTitle, .topIndiv .learnMore, .indivIcon{
+        margin-right: 0px;
+    }
+    
+    .topEnterp .topTitle, .topEnterp .learnMore, .enterpIcon{
+        margin-left: 0px;
+    }
+}

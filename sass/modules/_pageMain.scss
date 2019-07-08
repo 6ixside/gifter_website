@@ -1,0 +1,741 @@
+.pageMain{
+    background-color: $white;
+}
+
+.mainTitle{
+    // background-color: $gifterRed;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg,
+    rgba(255,255,255,1)0%,
+    rgba(255,255,255,1)49%,
+    rgba(233,95,94,1)50%,
+    rgba(233,95,94,1)100%);
+}
+
+.mainTitleText{
+    color: $fontColor;
+    background-color: $white;
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: bold;
+    line-height: 1.7em;
+    width: 76%;
+    height: 60px;
+    margin-left: 12%;
+    // border: 1px solid #000;
+    -webkit-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+}
+
+.iconLogoRed{
+    margin-top: 75px;
+    width: 104px;
+    height: 104px;
+}
+
+.mainSub{
+    text-align: center;
+    color: $fontColor;
+    font-size: 2em;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.overviewImg{
+    width: 100%;
+    height: auto;
+    margin-top: 38px;
+    margin-bottom: 200px;
+}
+
+.indImg{
+    width: 94%;
+    height: 95vw;
+    margin-left: 4%;
+    background-image: url(../images/imgProduct-Individuals.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.entImg{
+    background-image: url(../images/imgProduct-Enterprises.png);
+}
+
+.indInfoBoxes{
+    position: relative;
+    margin-top: -900px;
+    z-index: 1;
+}
+
+.indInfoBoxTop{
+    width: 94%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 280px;
+}
+
+.indInfoBoxBot{
+    width: 94%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 540px;
+}
+
+.indInfoBoxLeft{
+    margin-right: 2%;
+}
+
+.indInfoBoxRight{
+    margin-left: 2%;
+}
+
+.indInfoBox{
+    background-color: $white;
+    width: 38%;
+    height: 260px;
+    -webkit-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.indInfoBoxLeft .indInfoBoxTitle, .indInfoBoxLeft .indInfoBoxBody{
+    margin-left: 30%;
+}
+
+.indInfoBoxRight .indInfoBoxTitle, .indInfoBoxRight .indInfoBoxBody{
+    margin-left: 10%;
+}
+
+.indInfoBoxTitle{
+    font-weight: bold;
+    color: $fontColor;
+    font-size: 1.4em;
+    width: 60%;
+}
+
+.indInfoBoxBody{
+    color: $fontColor;
+    font-weight: 600;
+    font-size: .9em;
+    width: 60%;
+    margin-top: 28px;
+    line-height: 1.4em;
+}
+
+.iconBoxes{
+    position: relative;
+    padding-top: 80px;
+    z-index: 5;
+}
+
+.iconBox{
+    width: 160px;
+    height: 160px;
+    background-color: $gifterLBlue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.iconBoxTop{
+    width: 94%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 380px;
+}
+
+.iconBoxBot{
+    width: 94%;
+    margin-left: 2.5%;
+    display: flex;
+    justify-content: center;
+    margin-top: 640px;
+}
+
+.iconBoxLeft{
+    margin-right: 31%;
+}
+
+.iconBoxRight{
+    margin-left: 31%;
+}
+
+.mainOpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.optExp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optPeople{
+    width: max-content;
+    position: relative;
+    z-index: 1;
+    width: 35%;
+}
+
+.optTextArea{
+    display: flex;
+    position: relative;
+    z-index: 2;
+    flex-direction: column;
+    align-items: center;
+}
+
+.optTitle{
+    font-weight: bold;
+    text-align: center;
+    color: $fontColor;
+    font-size: 2em;
+    margin-top: 35px;
+}
+
+.optBlurb{
+    text-align: center;
+    color: $fontColor;
+    width: 52%;
+    font-size: 1.5em;
+    margin-top: 22px;
+    font-weight: 600;
+    line-height: 1.6em;
+}
+
+.optCircles{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.optCircle{
+    clip-path: circle(50% at 50% 50%);
+    background-color: $gifterLBlue;
+    width: 300px;
+    height: 300px;
+}
+
+.optDatas{
+    display: flex;
+    width: 95%;
+    height: 300px;
+    justify-content: space-around;
+    margin-top: -275px;
+    position: relative;
+    z-index: 5;
+}
+
+.optData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.optIcon{
+    width: max-content;
+    margin-left: 5%;
+}
+
+.optIcon2{
+    width: 162px;
+    height: 162px;
+    margin-left: -2px;
+}
+
+.optData .optTitle{
+    font-size: 1.6em;
+    margin-top: 15px;
+}
+
+.optSub{
+    color: $fontColor;
+    font-size: 1.26em;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.getButtons{
+    display: flex;
+    width: 96.5%;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 3.5%;
+}
+
+.chromeBut{
+    background-color: $gifterYellow;
+    width: 30%;
+    height: 60px;
+    display: flex;
+    border: none;
+    color: $fontColor;
+    border-radius: 5px;
+    margin-right: 4%;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.shopBut{
+    background-color: $gifterBlue;
+}
+
+.chromeBut h4{
+    font-weight: bold;
+    font-size: 1.2em;
+    width: 70%;
+    text-align: center;
+}
+
+.butLineChrome{
+    width: 2px;
+    height: 45px;
+    background-color: $fontColor;
+    margin-top: -5px;
+}
+
+.chromeIcon{
+    width: 61px;
+    height: 60px;
+    margin-top: 6px;
+}
+
+.shopIcon{
+    width: 40px;
+    height: 44px;
+    margin-top: -6px;
+}
+
+.downloadIconChrome{
+    width: 60px;
+    height: 60px;
+    margin-top: 4px;
+}
+
+.butForm{
+    width: 90%;
+}
+
+.butInp{
+    width: 78%;
+    height: 35px;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 2%;
+}
+
+.butSub{
+    width: 20%;
+    height: 37px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -5px;
+    background-color: $gifterRed;
+    color: $white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.diveIn{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.diveInText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin-left: 5%;
+}
+
+.diveInTitle{
+    font-weight: bold;
+    color: $fontColor;
+    font-size: 2.2em;
+    margin-bottom: 45px;
+}
+
+.diveInBody{
+    color: $fontColor;
+    font-size: 1.45em;
+    font-weight: 600;
+    width: 80%;
+    line-height: 1.5em;
+}
+
+.diveInBut{
+    width: 70%;
+    border: 1.5px $fontColor solid;
+    text-align: center;
+    height: 40px;
+    border-radius: 5px;
+    color: $fontColor;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.diveImg{
+    width: 45%;
+}
+
+.diveImgInner{
+    width: 100%;
+}
+
+.updatesForm{
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.updatesEmail{
+    width: 48%;
+    margin-left: 24%;
+    margin-top: 2px;
+    background-color: $gifterLBlue;
+    border: 1px $fontColor solid;
+    height: 60px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    padding-left: 2%;
+    padding-right: 2%;
+    color: $fontColor; 
+    -webkit-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    -moz-box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+    box-shadow: 0px 3px 19px 4px rgba(0,0,0,0.26);
+}
+
+.updatesSub{
+    height: 64px;
+    background-color: $fontColor;
+    border: 1px $fontColor solid;
+    border-radius: 32px;
+    width: 20%;
+    color: $white;
+    font-size: 1.1em;
+    margin-left: -20%;
+    cursor: pointer;
+}
+
+.contactUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 35px;
+    color: $fontColor;
+    background-color: $gifterLBlue;
+    padding: 70px 0;
+}
+
+.contactTitle{
+    width: 35%;
+    font-weight: bold;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.contactBut{
+    width: 15%;
+    height: 40px;
+    background-color: $gifterRed;
+    padding-top: 20px;
+    text-decoration: none;
+    color: $white;
+    border-radius: 5px;
+}
+
+
+
+@include mobile{    
+    .mainTitleText{
+        font-size: 1.8em;
+        line-height: 2em;
+    }
+    
+    .iconLogoRed{
+        margin-top: 40px;
+    }
+    
+    .mainSub{
+        font-size: 1.7em;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .overviewImg{
+        margin-bottom: 80px;
+    }
+
+    .mainOpt{
+        margin-top: 0px;
+    }
+    
+    .optPeople{
+        width: 75%;
+    }
+    
+    .optTextArea{
+        width: 86%;
+    }
+    
+    .optTitle{
+        font-size: 1.8em;
+        line-height: 1.4em;
+    }
+    
+    .optBlurb{
+        width: 98%;
+        font-size: 1.2em;
+    }
+
+    .optCircles{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        margin-left: 0%;
+    }
+    
+    .optCircle{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .optDatas{
+        height: 800px;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -790px;
+        margin-left: 0%;
+    }
+    
+    .optData{
+        width: 250px;
+        height: 250px;
+    }
+    
+    .optIcon{
+        width: 115px;
+        height: 115px;
+        margin-top: 22px;
+        margin-left: 3%;
+    }
+    
+    .optIcon2{
+        width: 115px;
+        height: 115px;
+    }
+    
+    .optData .optTitle{
+        margin-top: 10px;
+    }
+    
+    .optSub{
+        font-size: 1em;
+        width: 60%;
+        margin-top: 5px;
+        text-align: center;
+    }
+
+    .getButtons{
+        margin-top: 40px;
+        margin-left: 0%;
+        margin-bottom: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chromeBut{
+        width: 85%;
+        margin-right: 0%;
+        margin-top: 20px;
+    }
+
+    .chromeBut h4{
+        font-size: 1.1em;
+    }
+    
+    .shopIcon{
+        margin-left: 2%;
+    }
+
+    .diveImg{
+        display: none;
+    }
+
+    .diveInText{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .diveInTitle{
+        text-align: center;
+        font-size: 1.9em;
+    }
+    
+    .diveInBody{
+        text-align: center;
+        margin-left: 10%;
+    }
+    
+    .diveInBut{
+        margin-left: 15%;
+    }
+    
+    .updatesEmail{
+        width: 90%;
+        margin-left: 3%;
+        font-size: .65em;
+    }
+    
+    .updatesSub{
+        width: 35%;
+        font-size: .65em;
+        margin-left: -35%;
+    }
+
+    .contactTitle{
+        width: 85%;
+    }
+    
+    .contactBut{
+        width: 65%;
+    }
+    
+    .indImg{
+        width: 100%;
+        height: 940px;
+        margin-left: 0%;
+        background-size: cover;
+    }
+
+    .indInfoBoxes{
+        margin-top: -600px;
+    }
+    
+    .indInfoBoxTop{
+        margin-bottom: 0px;
+    }
+    
+    .indInfoBoxBot{
+        margin-top: 45px;
+    }
+    
+    .indInfoBox{
+        width: 50%;
+        height: 430px;
+    }
+    
+    .indInfoBoxLeft .indInfoBoxTitle, .indInfoBoxLeft .indInfoBoxBody{
+        margin-left: 10%;
+    }
+    
+    .indInfoBoxTitle{
+        width: 80%;
+        text-align: center;
+        margin-top: 120px;
+        font-size: 1.2em;
+    }
+    
+    .indInfoBoxBody{
+        width: 80%;
+        font-size: .85em;
+    }
+
+    .iconBoxes{
+        padding-top: 40px;
+    }
+
+    .iconBoxTop{
+        width: 72%;
+        margin-left: 14%;
+        justify-content: space-between;
+        margin-bottom: 0px;
+    }
+
+    .iconBoxBot{
+        width: 72%;
+        margin-left: 14%;
+        justify-content: space-between;
+        margin-top: 380px;
+    }
+
+    .iconBox{
+        width: 100px;
+        height: 100px;
+    }
+
+    .iconBoxImg{
+        height: 60px;
+    }
+
+    .iconBoxLeft{
+        margin-right: 0%;
+    }
+    
+    .iconBoxRight{
+        margin-left: 0%;
+    }
+
+    .mainOpt{
+        margin-top: 90px;
+    }
+
+    .optExp{
+        flex-direction: column !important;
+    }
+    
+    .optPeople{
+        width: 100%;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        opacity: .2 !important;
+    }
+
+    .optTextArea{
+        width: 100%;        
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .optTitle{
+        width: 90%;
+        font-size: 1.6em;
+    }
+    
+    .optBlurb{
+        text-align: center !important;
+        width: 80% !important;
+        font-size: 1.2em;
+        margin-left: 0% !important;
+    }
+}

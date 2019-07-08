@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import 'modules/_vars';
+@import 'modules/_mixins';
+@import 'modules/_header';
+@import 'modules/_pageTop';
+@import 'modules/_pageMain';
+@import 'modules/_footer';
+
+@font-face{
+    font-family: alibabaSans;
+    src: url(../fonts/AlibabaSans-Light.otf);
+}
+
+@font-face{
+    font-family: alibabaSans;
+    src: url(../fonts/AlibabaSans-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face{
+    font-family: alibabaSans;
+    src: url(../fonts/AlibabaSans-Regular.otf);
+    font-weight: 600;
+}
+
+/*this class will hide elements on our page*/
+.hidden {
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.container{
+    width: 100%;
+    font-family: alibabaSans, Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.flexCenter{
+    display: flex;
+    justify-content: center;
+}
